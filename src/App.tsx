@@ -1,10 +1,13 @@
 import "./App.css";
+import Sidebar from "@/components/layout/Sidebar";
+import Primary from "@/components/layout/Primary";
 
 const App = () => {
   return (
-    <>
-      <h1>Jabby.house</h1>
-    </>
+    <div>
+      <Sidebar />
+      <Primary />
+    </div>
   );
 };
 
