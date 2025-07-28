@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Generated files
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Documentation
+CHANGELOG.md
+LICENSE
+*.md
+
+# Config files that shouldn't be formatted
+.eslintrc*
+.prettierrc*
+.editorconfig
+.gitignore
+.gitattributes
+
+# TypeScript declaration files
+*.d.ts
+
+# Tailwind CSS generated files (if using JIT mode)
+tailwind.config.js
+
+# Vite specific
+vite.config.ts
+vite.config.js
+
+# Storybook (if used)
+.storybook/
+storybook-static/
+
+# Testing
+cypress/
+cypress.config.*
+test-results/
+playwright-report/
+test-results.xml
+
+# Misc
+*.tgz
+*.tar.gz
