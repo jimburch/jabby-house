@@ -60,7 +60,6 @@ coverage/
 # Documentation
 CHANGELOG.md
 LICENSE
-*.md
 
 # Config files that shouldn't be formatted
 .eslintrc*
